@@ -1,0 +1,9 @@
+webpack-1/node_modules
+webpack-3/node_modules
+node_modules/lodash/*
+!node_modules/lodash/package.json
+node_modules/dedupe-example-dependency-a/node_modules/lodash/*
+!node_modules/dedupe-example-dependency-a/node_modules/lodash/package.json
+node_modules/dedupe-example-dependency-b/node_modules/lodash/*
+!node_modules/dedupe-example-dependency-a/node_modules/lodash/package.json
+

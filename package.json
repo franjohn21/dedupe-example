@@ -1,0 +1,17 @@
+{
+  "name": "dedupe-example",
+  "version": "1.0.0",
+  "description": "Example of Webpack not dedupe packages",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./webpack.sh"
+  },
+  "author": "Francis John",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dedupe-example-dependency-a": "^1.0.1",
+    "dedupe-example-dependency-b": "^1.0.1",
+    "lodash": "^4.17.4"
+  }
+}

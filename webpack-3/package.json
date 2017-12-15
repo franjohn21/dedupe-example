@@ -1,0 +1,15 @@
+{
+  "name": "webpack-3",
+  "version": "1.0.0",
+  "description": "Example of Webpack not dedupe packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --json > ../stats--wepback3.json"
+  },
+  "author": "Francis John",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
+}
