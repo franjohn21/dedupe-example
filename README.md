@@ -1,6 +1,8 @@
 ## Webpack 3 Dedupe Issue Demonstration
 
-In Webpack 1, modules importing the same version of a dependencies would be deduped via a DedupePlugin. In webpack 3, the DedupePlugin was removed. As you can see in this example, the webpack 1 output here doesn't include a third instance of lodash, but the webpack 3 output does.
+https://github.com/webpack/webpack/issues/5593
+
+In Webpack 1, modules importing the same version of a dependencies would be deduped via a DedupePlugin. In webpack 3, the DedupePlugin was removed. As you can see in this example, the webpack 1 output here doesn't include a third instance of lodash, but the webpack 3 output does. 
 
 The dependency structure is:
 
